@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="master.css">
+    <title>Games</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <span class="up"><i class="fa-solid fa-angles-up"></i></span>
+    <header>
+        <div class="logo">
+            <p class="main-logo">Download Games For Computer</p>
+            <p class="sub-logo"><span class="main-icon"><i class="fa-solid fa-computer"></i></span>www.Games4U.com</p>
+        </div>
+    </header>
+    <nav>
+        <div class="search-box">
+            <label for="searchInput"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input id="searchInput" onkeyup="searchProduct()" type="text" placeholder="Search" class="search-input">
+        </div>
+        <ul class="nav-menu">
+            <a href="recing.html">Racing games <i class="fa-solid fa-car-burst"></i></a>
+            <a href="football.html">Football Games <i class="fa-solid fa-volleyball"></i></a>
+            <a href="gta.html">GTA Games <i class="fa-solid fa-gamepad"></i></a>
+            <a href="index.html" style="outline: 5px solid rgba(3, 44, 44, 0.372);">Home Page
+                <i class="fa-solid fa-house"></i></a>
+        </ul>
+        <ul class=" burger-menu">
+            <li><button id="myButton" onclick="toggleList()" class="burger"><i
+                        class="fa-solid fa-bars-progress"></i></button></li>
+        </ul>
+    </nav>
+    <section class="main">
+        <div id="myList" style="height: 0px;">
+            <span class="span">x</span>
+            <li>
+                <a href="recing.html">Racing games <i class="fa-solid fa-car-burst"></i></a>
+                <a href="gta.html">GTA Games <i class="fa-solid fa-gamepad"></i></a>
+            </li>
+            <span class="span">x</span>
+            <li>
+                <a href="football.html">Football Games <i class="fa-solid fa-volleyball"></i></a>
+                <a href="index.html">Home Page
+                    <i class="fa-solid fa-house"></i></a>
+            </li>
+            <span class="span">x</span>
+        </div>
+        <center>
+            <div id="notFoundMessage">
+                <h1>Not Found This Game</h1>
+                <form action="index.html">
+                    <button>Back To Home</button>
+                </form>
+            </div>
+            <div class="product">
+                <div style="display: flex;">
+                    <div class="img-hid"></div>
+                    <img class="img"
+                        src="https://assets-prd.ignimgs.com/2022/01/08/spiderman2-ps2gcnx-1641668707999.jpg"
+                        alt="Error">
+                </div>
+                <div class="info">
+                    <h3 class="h3">Download Spider Man <span style="color: rgba(255 59 92);">2</span> For Pc</h3>
+                    <div class="btn-area">
+                        <a href="Games/Spider Man.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
